@@ -1,10 +1,10 @@
 # Site settings
 title: Indiaviewpoint.in
-email: svmille@clemson.edu
+email: contact@indiaviewpoint.in
 description: > # this means to ignore newlines until "baseurl:"
-  I'm a political scientist at Clemson University with research interests in
-  international conflict and political behavior. Topics on my site include
-  my teaching interests, R, LaTeX, and professional development.
+  
+indiaviewpoint.in is a blog website that publishes articles related to science, technology, cyberspace and social science.
+
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://indiaviewpoint.github.io" # the base hostname & protocol for your site
 twitter_username: indviewpoint
