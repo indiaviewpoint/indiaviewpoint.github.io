@@ -177,11 +177,10 @@
 }
 
 h1 .post-title {
-  font-size:25px; 
-    letter-spacing: -1px;
-    line-height: 1;
-		font-family: 'Hind', sans-serif;
-		color: $clemson-purple;
+  font-size: 25px; 
+    letter-spacing: 0px;
+   font-family: 'Hind', sans-serif;
+    color: $clemson-purple;
 
     @include media-query($on-laptop) {   font-size: 25px; 
     }
