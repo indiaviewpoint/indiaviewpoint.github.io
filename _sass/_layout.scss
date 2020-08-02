@@ -145,7 +145,7 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .post-list {
@@ -177,14 +177,13 @@
 }
 
 h1 .post-title {
-  font-size: 22px; 
+  font-size:25px; 
     letter-spacing: -1px;
     line-height: 1;
 		font-family: 'Hind', sans-serif;
 		color: $clemson-purple;
 
-    @include media-query($on-laptop) {
-/*        font-size: 25px; */
+    @include media-query($on-laptop) {   font-size: 25px; 
     }
 }
 
@@ -196,7 +195,7 @@ h1 .post-title {
       font-size: 20px; 
 
         @include media-query($on-laptop) {
-/*            font-size: 22px; */
+      font-size: 20px; 
         }
     }
 
@@ -205,7 +204,7 @@ h1 .post-title {
       font-size: 18px;
 
         @include media-query($on-laptop) {
-/*            font-size: 20px; */
+          font-size: 18px;
         }
     }
 
@@ -213,7 +212,7 @@ h1 .post-title {
       font-size: 17px; 
 
         @include media-query($on-laptop) {
-/*            font-size: 18px; */
+           font-size: 17px; 
         }
     }
 }
