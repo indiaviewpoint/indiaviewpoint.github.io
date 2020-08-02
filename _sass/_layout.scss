@@ -137,7 +137,7 @@
 
 .page-heading {
     font-size: 20px;
-    font-family : $base-font-family
+    font-family : $base-font-family ;
 }
 
 .post-list {
@@ -172,7 +172,7 @@ h1 /* .post-title */ {
 /*    font-size: 42px; */
     letter-spacing:px;
     line-height: 0px;
-		font-family: $base-font-family
+		font-family: $base-font-family ;
 		color: $clemson-purple;
 
     @include media-query($on-laptop) {
@@ -184,7 +184,7 @@ h1 /* .post-title */ {
     margin-bottom: $spacing-unit;
 
     h2 {
-		font-family: $base-font-family
+		font-family: $base-font-family ;
 	font-weight: 500;
 /*        font-size: 32px; */
 
