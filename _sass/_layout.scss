@@ -169,14 +169,14 @@
 
 
 
-/**
- * Posts
- */
+/*
+ * Posts */
+
 .post-header {
     margin-bottom: $spacing-unit;
 }
 
-h1  .post-title */ {
+h1 .post-title {
   font-size: 25px; 
     letter-spacing: -1px;
     line-height: 1;
@@ -191,8 +191,7 @@ h1  .post-title */ {
 .post-content {
     margin-bottom: $spacing-unit;
 
-    h2 {
-		font-family: 'Hind', sans-serif;
+    h2 { font-family: 'Hind', sans-serif;
 	font-weight: 500;
       font-size: 22px; 
 
@@ -202,7 +201,7 @@ h1  .post-title */ {
     }
 
     h3 {
-		font-style: italic;
+	font-style: italic;
       font-size: 22px;
 
         @include media-query($on-laptop) {
