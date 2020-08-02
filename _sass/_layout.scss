@@ -137,7 +137,7 @@
 
 .page-heading {
     font-size: 20px;
-    font-family : $base_font
+    font-family : $base-font-family
 }
 
 .post-list {
@@ -172,7 +172,7 @@ h1 /* .post-title */ {
 /*    font-size: 42px; */
     letter-spacing:px;
     line-height: 0px;
-		font-family: $base-font
+		font-family: $base-font-family
 		color: $clemson-purple;
 
     @include media-query($on-laptop) {
@@ -184,7 +184,7 @@ h1 /* .post-title */ {
     margin-bottom: $spacing-unit;
 
     h2 {
-		font-family: $base_font
+		font-family: $base-font_family
 	font-weight: 500;
 /*        font-size: 32px; */
 
@@ -226,7 +226,7 @@ ul.listing {
 ul.listing li.listing-seperator {
 	padding-top: 15px;
 	font-weight: bold;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: $base-font-family;
 	font-size: 1.17em;
 }
 
@@ -239,9 +239,9 @@ ul.listing li.listing-item time {
 }
 
 ul.listing li.listing-item a {
-	color: $clemson-purple;
+	color: #0079C6;
 	font-weight: 400;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: $base-font-family;
 }
 
 
@@ -282,7 +282,7 @@ ul#archive li.alt {
 ul#archive li span a {
        color: $clemson-purple;
 	font-weight: bold;
-font-family: 'Titillium Web', sans-serif;
+font-family: $base-font-family;
 }
 
 
@@ -294,7 +294,7 @@ ul#archive li span.postlower {
 ul#archive li span.postlower a {
 	color: #07c;
 	font-weight: normal;
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-family: $base-font-family;
 
 }
 
