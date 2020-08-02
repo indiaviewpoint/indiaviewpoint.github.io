@@ -17,35 +17,38 @@
  
 
          <p class="text">
-		Department of Political Science<br />
-		232 Brackett Hall<br />
-		Clemson, SC 29634-1354</p> <!-- {{ site.description }} -->
+		 </br>
+India's <strong>first</strong> Hindi based website about Recent Research , Experiment, innovation , Discovery and Sciences Technology..
+
+
+
+		</p> <!-- {{ site.description }} -->
       </div>
 
       <div class="footer-col  footer-col-3">
        <ul class="social-media-list">
 
-                  {% if site.google_scholar_id %}
+                  {% if site.linkedin_username %}
   <li>
-    <a href="https://scholar.google.com/citations?user={{ site.google_scholar_id }}">
-      <i class="ai ai-google-scholar" style="color:gray"></i> Google Scholar
+    <a href="https://linkedin.com={{ site.linkeden_username }}">
+      <i class="fa fa-linkedin" style="color:gray"></i> Google Scholar
     </a>
   </li>
 {% endif %}
      
 
-          {% if site.github_username %}
+          {% if site.instagram_username %}
   <li>
-    <a href="https://github.com/{{ site.github_username }}">
-      <i class="fa fa-github" style="color:gray"></i> Github
+    <a href="https://instagram.com/{{ site.instagram_username }}">
+      <i class="fa fa-instgram" style="color:gray"></i> Instagram
     </a>
   </li>
 {% endif %}
 
-          {% if site.orcid_id %}
+          {% if site.facebook_username %}
   <li>
-    <a href="https://orcid.org/{{ site.orcid_id }}">
-      <i class="ai ai-orcid" style="color:gray"></i> ORCID
+    <a href="https://facebook.com/{{ site.facebook_username }}">
+      <i class="fa fa-facebook" style="color:gray"></i> ORCID
     </a>
   </li>
 {% endif %}
