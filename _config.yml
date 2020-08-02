@@ -1,10 +1,7 @@
 # Site settings
 title: Indiaviewpoint.in
 email: contact@indiaviewpoint.in
-description: > # this means to ignore newlines until "baseurl:"
-  
-indiaviewpoint.in is a blog website that publishes articles related to science, technology, cyberspace and social science.
-
+description: > # this means to ignore newlines until indiaviewpoint.in is a blog website that publishes articles related to science, technology, cyberspace and social science.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://indiaviewpoint.github.io" # the base hostname & protocol for your site
 twitter_username: indviewpoint
